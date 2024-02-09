@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+#root{
+    background-color: rgb(232, 202, 202);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height:50% ;
+    margin-top: 120px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 387px;
+    padding: 0px;
+    border-radius: 30px;
+    /* text-shadow: rgb(255, 255, 255) 5px 5px 5px; */
+    /* box-shadow: rgb(172, 172, 172) 12px 20px 15px; */
+}
+.main0 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(47, 0, 255);
+    /* box-shadow: rgb(165, 87, 103) 3px 2px 1px; */
+    padding: 10px;
+    margin: 20%;
+    border-radius: 37px;
+    justify-content: center;
+    margin-bottom: 21px;
+    margin-left: 46px;
+    margin-top: 20px;
+    margin-right: -9px;
+}
+.main {
+    background-color: black;
+    color: rgb(64, 140, 207);
+    padding: 16px;
+    margin: 20%;
+    border-radius: 21px;
+    justify-content: center;
+    margin-bottom: 4px;
+    margin-left: 71px;
+    margin-top: 3px;
+    margin-right: -6px;
+}
+.image {
+    margin-top: 2px;
+    margin-left: 3px;
+    height: 235px;
+    width: 300px;
+    border-radius: 21px;
+    /* width: 50%; */
+}
+
+p {
+    margin-top: 32px;
+    margin-left: 15px;
+    margin-right: 19px;
+}
+h1{
+    margin-left: 19px;
+    margin-right: 24px;
+}
+h3{
+    margin-left: 17px;
+    margin-right: 0px;
+
+}
