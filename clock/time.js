@@ -24,8 +24,11 @@ function showTime(){
     min = min<10 ? "0"+min : min;
     sec = sec< 10 ? "0" + sec : sec;
 
+    const date = time.toLocaleDateString() ;
+
     currentTime = hour +":"+ min +":" + sec + " " + am_pm;
-    presentTime.textContent = currentTime;
+    presentTime.textContent = currentTime +" "+ date ;
+
     // clockDiv.appendChild(presentTime);
 }
 setInterval(showTime, 1000);
